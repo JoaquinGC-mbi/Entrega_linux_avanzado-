@@ -1,0 +1,82 @@
+This is cutadapt 4.9 with Python 3.8.20
+Command line parameters: -m 18 -a TGGAATTCTCGGGTGCCAAGG --discard-untrimmed -o out/trimmed/SPRET_EiJ_trimmed.fastq.gz out/merged/SPRET_EiJ.fastq.gz
+Processing single-end reads on 1 core ...
+Finished in 1.983 s (9.913 µs/read; 6.05 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 200,000
+Reads with adapters:                   198,838 (99.4%)
+
+== Read fate breakdown ==
+Reads that were too short:               5,509 (2.8%)
+Reads written (passing filters):       193,329 (96.7%)
+
+Total basepairs processed:    10,000,000 bp
+Total written (filtered):      5,422,475 bp (54.2%)
+
+=== Adapter 1 ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGG; Type: regular 3'; Length: 21; Trimmed: 198838 times
+
+Minimum overlap: 3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Bases preceding removed adapters:
+  A: 18.6%
+  C: 28.2%
+  G: 17.8%
+  T: 35.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	42	3125.0	0	42
+4	47	781.2	0	47
+5	67	195.3	0	67
+6	85	48.8	0	85
+7	322	12.2	0	322
+8	312	3.1	0	312
+9	560	0.8	0	559 1
+10	502	0.2	1	494 8
+11	2975	0.0	1	2940 35
+12	1375	0.0	1	1352 23
+13	1631	0.0	1	1537 94
+14	3054	0.0	1	2854 200
+15	2272	0.0	1	2216 56
+16	1710	0.0	1	1667 43
+17	3720	0.0	1	3522 198
+18	4047	0.0	1	3822 225
+19	7858	0.0	1	7658 198 2
+20	14145	0.0	2	13690 399 56
+21	23454	0.0	2	22689 675 90
+22	33057	0.0	2	31938 979 140
+23	35674	0.0	2	34426 1113 135
+24	21301	0.0	2	20492 702 107
+25	7407	0.0	2	7084 282 41
+26	15376	0.0	2	14735 566 75
+27	5448	0.0	2	4918 486 44
+28	2665	0.0	2	2406 236 23
+29	1949	0.0	2	1874 69 6
+30	789	0.0	2	751 35 3
+31	798	0.0	2	735 60 3
+32	687	0.0	2	636 48 3
+33	533	0.0	2	503 24 6
+34	545	0.0	2	506 35 4
+35	966	0.0	2	906 56 4
+36	418	0.0	2	383 34 1
+37	1466	0.0	2	1380 72 14
+38	216	0.0	2	205 8 3
+39	176	0.0	2	169 6 1
+40	244	0.0	2	235 7 2
+41	117	0.0	2	110 4 3
+42	96	0.0	2	90 5 1
+43	146	0.0	2	143 3
+44	83	0.0	2	79 4
+45	63	0.0	2	62 1
+46	45	0.0	2	43 2
+47	37	0.0	2	35 1 1
+48	275	0.0	2	264 10 1
+49	15	0.0	2	15
+50	68	0.0	2	66 2

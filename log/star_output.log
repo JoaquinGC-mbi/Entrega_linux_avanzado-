@@ -1,0 +1,7 @@
+	STAR --runThreadN 4 --genomeDir res/contaminants_idx --outReadsUnmapped Fastx --readFilesIn out/trimmed/SPRET_EiJ_trimmed.fastq.gz --readFilesCommand gunzip -c --outFileNamePrefix out/star/SPRET_EiJ/
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Apr 11 00:31:47 ..... started STAR run
+Apr 11 00:31:47 ..... loading genome
+Apr 11 00:31:49 ..... started mapping
+Apr 11 00:32:36 ..... finished mapping
+Apr 11 00:32:36 ..... finished successfully

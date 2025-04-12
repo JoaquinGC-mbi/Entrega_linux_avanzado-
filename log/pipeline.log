@@ -1,0 +1,21 @@
+Resultados generados el: 2025-04-11 00:32:36
+==== Resultados cutadapt ====
+Muestra: C57BL_6NJ
+Reads with adapters:                   198,349 (99.2%)
+Total basepairs processed:    10,000,000 bp
+
+Muestra: SPRET_EiJ
+Reads with adapters:                   198,838 (99.4%)
+Total basepairs processed:    10,000,000 bp
+
+==== Resultados STAR ====
+Muestra STAR: C57BL_6NJ
+                        Uniquely mapped reads % |	3.18%
+             % of reads mapped to multiple loci |	4.56%
+             % of reads mapped to too many loci |	0.77%
+
+Muestra STAR: SPRET_EiJ
+                        Uniquely mapped reads % |	2.89%
+             % of reads mapped to multiple loci |	4.21%
+             % of reads mapped to too many loci |	1.15%
+

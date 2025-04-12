@@ -1,0 +1,12 @@
+name: ejercicio_linux
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - nodefaults
+dependencies:
+  - seqkit
+  - star
+  - cutadapt
+  - python=3.8
+prefix: /home/vant/miniforge3/envs/ejercicio_linux
